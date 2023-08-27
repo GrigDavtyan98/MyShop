@@ -20,5 +20,6 @@ namespace MyShop.Data.Entites
         [ForeignKey("Vendor")]
         public int VendorId { get; set; }
         public Vendor Vendor { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
